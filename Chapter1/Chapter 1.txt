@@ -1,0 +1,7 @@
+Chapter 1
+
+ 1 need an index page for website
+
+2  in <head> we don't put sth show on website//在head tag里不要写需要显示在网页上的内容
+
+3  HEX color 
