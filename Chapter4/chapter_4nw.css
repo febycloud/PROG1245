@@ -1,0 +1,33 @@
+body{
+    margin: .5em 1em;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+main{
+    border: 2px solid black; 
+    padding: 1em;
+
+}
+h1{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color:blanchedalmond;
+    text-shadow: -2px -2px 4px red;
+}
+p{
+    margin-left: 3em;
+}
+#copyright{
+    font-size: 80%; 
+}
+.blue{
+    color: blue;
+}
+.right{
+    text-align: right;
+}
+a {
+    font-weight: bold;
+    a:link{color:green;}
+    a:hover,a:focus{color:fuchsia;}
+}
