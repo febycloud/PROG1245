@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            ol.lower_alpha{list-style-type:upper-alpha;}
+            ul.circle{list-style-type: circle;}
+* { margin: 0;padding: 0; }
+#nav_menu_1 ul { 
+list-style-type: none;
+margin-left: 1.25em;
+margin-bottom: 1.5em; }
+#nav_menu_1 ul li { 
+width: 200px;
+margin-bottom: .5em;
+border: 2px solid blue; }
+#nav_menu_1 ul li a {
+display: block;
+padding: .5em 0 .5em 1.5em;
+text-decoration: none;
+font-weight: bold;
+color: blue; }
+#nav_menu_1 ul li a.current {
+background-color: silver; }
+</style>
+</head>
+<body>
+    <ul class="circle">
+        <li>Edge</li>
+        <li>Chrome</li>
+        <li>Firefox</li>
+    </ul>
+    <ul class="star">
+        <li>mmm</li>
+        <li>ddd</li>
+        <li>ooo</li>
+    </ul>
+    <h1>List and Link</h1>
+    <p>this is how I make navigations</p>
+    <ol class="lower_alpha">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+    <h2>countinue list</h2>
+    <ol start="4">
+            <li>one2</li>
+            <li>two2</li>
+            <li>three2</li>
+    </ol>
+
+    <h2>components of the internet architecture</h2>
+    <dl>
+        <dt>client</dt>
+        <dd>one</dd>
+        <dd>two</dd>
+        <dt>web server</dt>
+        <dd>three</dd>
+        <dd>four</dd>
+    </dl>
+
+    <nav id="nav_menu_1">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tickets.html">Get Tickets</a></li> 
+            <li><a href="members.html" class="current">Becomea Member</a></li> 
+            <li><a href="about_us.html"class="lastitem">About Us</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
