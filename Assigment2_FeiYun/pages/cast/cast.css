@@ -1,5 +1,5 @@
 html {
-    background-image: url("source/Death-Stranding-characters.jpg");
+    background-image: url("../pics/Death-Stranding-characters.jpg");
     
 }
 body  {
@@ -8,7 +8,7 @@ body  {
 	background-color: white;
 	margin: 0 auto; 
 	padding: 0;
-    border: 2px solid black;
+    border: 1px solid black;
     opacity: 0.95;   
 }
 
@@ -18,7 +18,8 @@ body  {
 }
 #nav_bar ul {
     list-style-type: none;
-    position: relative; }
+    position: relative; 
+    box-shadow: gray 2px 2px 2px;}
 #nav_bar ul li { float: left; }
 #nav_bar ul ul {
     display: none;
@@ -47,7 +48,7 @@ body  {
     text-align: center;
     display: block;
     width: 250px;
-    padding: 1em 0;
+    padding:0;
     text-decoration: none;
     background-color: #f0f2f5;
     color: darkgrey;
@@ -78,20 +79,12 @@ body  {
         background-color: gray; }
 
  /* Sidebar */
-#asideA {
+ #asideA {
 	float: left; 
 	width: 200px;
     padding-top: 30px;
 }
 
-#asideB {
-	float: right; 
-	width: 250px;
-}
-
-#asideB img{
-    width: 240px;
-}
 #nav_list ul {
     list-style-type: none;
     margin: 0;
@@ -117,21 +110,17 @@ body  {
     color: white;
 }
 
+
+
 section {
     width: 500px;
-    
+    margin-left: 100px;
     float: left;
 }
-section h1 { 
-	font-size: 120%;
-    margin-bottom: .5em;
-   
-}
-
-
-section p {
-	margin-bottom: .5em;
-}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:12px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:12px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
 
 
 
