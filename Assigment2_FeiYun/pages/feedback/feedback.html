@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Death Stranding</title>
+	<link rel="stylesheet" href="email.css">
+</head>
+<body>
+    <header>
+        <img src="../../source/deathstranding.png" alt="title" width="1000" height="200">
+    </header>
+    <nav id="nav_bar">
+        <ul>
+          <li><a href="index.html" class="current">Home</a></li>
+          <li><a href="image/index.html">Gallery</a>
+            <ul>
+                <li><a href="image/character.html">Character</a>
+                    <ul>
+                        <li><a href="character/sam.html">Sam Bridges</a></li>
+                        <li><a href="character/mama.html">Mama</a></li>
+                        <li><a href="character/amelie.html">Amelie</a></li>
+                        <li><a href="character/clifford.html">Clifford Unger</a></li>
+                    </ul>
+                
+                </li>
+                <li><a href="image/engine.html">Engine</a></li>
+                <li><a href="image/player.html">Player</a></li>
+                <li><a href="image/items.html">Items</a></li>
+            </ul></li>
+          <li><a href="Cast/index.html">Cast</a></li>
+          <li><a href="feedback/index.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+            <h1>Please enter the following information:</h1>
+            <form action="subscribe.html" method="get" name="email_form" id="email_form">
+                <label for="Firstname">FirstName:</label>
+                <input type="text" name="FirstName" id="FirstName" required><br>
+                <label for="Lastname">LastName:</label>
+                <input type="text" name="LastName" id="LastName" required> <br>
+                <label for="Email">Email:</label>
+                <input type="email" name="Email" id="Email" required> <br>
+                <label for="zip">Zip Code:</label>
+                <input type="text" name="zip" id="zip" placeholder="Optional but appreciated: 99999" 
+                          pattern="\d{5}" title="Must by 99999"><br>
+                <label></label>
+                <input  id="subs" name="subscribe" type="submit" value="subscribe">	
+            </form>
+      </section>
+      <aside id=asideB>
+        <img src="/source/2eaad71da7ad3f555e5f5a0be429fc1627ecb18c.png" alt="stranding">
+      </aside>
+    </main>
+  
+    <footer>
+      <p>&copy; 2019 Fei Yun</p>
+    </footer>
+</body>
+</html>

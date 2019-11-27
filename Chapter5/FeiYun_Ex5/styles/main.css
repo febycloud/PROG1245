@@ -1,0 +1,106 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	margin-left: auto;
+	margin-right:auto;
+	width: 600px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 3px solid #931420;
+	background: #fffded;
+}
+html{
+	background: white;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header{
+	background: linear-gradient(30deg,#f6bb73 0%,#78f86d 30%,#787877 50%,#7225ee 80%,#f03636 100%);
+	border-bottom: 3px solid #931420;
+	padding-top:1.5em;
+	padding-bottom: 2em;
+
+}
+header h2 {
+	font-size: 175%;
+	color: blue;
+	
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	
+}
+header img {
+	float: left;
+	padding-left: 30px;
+	padding-right:30px;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #800000;
+}
+/* the styles for the main content */
+main {
+	clear: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+main h1 {
+	border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;
+	font-size: 150%;
+	padding-left: 2em;
+	padding-top:.3em;
+	padding-bottom:.3em;
+
+	border-radius: 15px;
+	border:3px double red;
+	box-shadow:5px 5px black;
+}
+main h2 {	
+	color: #800000;
+	font-size: 130%;
+	padding-top:.5em;
+	padding-bottom:.25em;	
+}
+main h3 {
+	font-size: 105%;
+	padding-bottom:.25em;
+}
+img{
+	padding-bottom:1em;
+}
+main p{
+	padding-bottom:.5em;
+}
+blockquote{
+	font-style:italic;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+ul{
+	padding-bottom: .25em;
+p	padding-left: 1.25em;
+}
+li{
+	padding-bottom:.35em;
+}
+
+/* the styles for the footer */
+footer p {
+	padding-right: 10px;
+	border-top: 3px solid #931420;
+	background-color: #931420;
+	color:white;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 0;
+}
+/* *{
+	margin:0;
+	padding:0;
+} */
