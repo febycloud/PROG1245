@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Absolute and fixed positioning</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon"  href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/mormalize.css">
+</head>
+<style>
+    p { margin: 0;
+    }
+    body {
+      width: 550px;
+      padding: 0 25px 20px;
+      border: 1px solid black;
+      position: relative; 
+    }  /* not needed for fixed positioning */
+    aside {
+      width: 80px;
+      padding: 1em;
+      border: 1px solid black;
+      position: absolute;    /* change to fixed for fixed positioning */
+      right: 30px;
+      top: 50px; }
+  </style>
+<body>
+ <main>
+    <h1>Our speakers this season</h1>
+    <ul>
+    <li>October: <a href=''>Jeffrey Toobin</a></li>
+    <li>November: <a href=''>Andrew Ross Sorkin</a></li>
+    <li>January: <a href=''>Amy Chua</a></li>
+    </ul>
+    <p>Please contact us for tickets.</p>
+    </main>
+    <aside>
+    <p><a href="raffle.html">Enter to win a free ticket!</a></p>
+    </aside>
+    </body>
+</html>

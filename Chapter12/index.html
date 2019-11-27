@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    border:1px solid black;
+    padding: .2em .7em;
+    text-align: right;
+}
+th.left,td.left{
+    text-align: left;
+}
+thead,tfoot{
+    background-color: aqua;
+    border:1px solid black
+}
+tfoot{
+    font-weight: bold;
+}
+</style>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th class="left">Book</th>
+            <th>Year Published</th>
+            <th>Sales</th>
+        </tr>
+        </thead>
+        <tr>
+            <td class="left">PHP and MySQL</td>
+            <td>2017</td>
+            <td>$372,381</td>
+        </tr>
+        <tr>
+            <td class="left">JavaScript and jQuery</td>
+            <td>2017</td>
+            <td>$305,447</td>
+        </tr>
+        <tr>
+            <td class="left">Android Programming</td>
+            <td>2015</td>
+            <td>$292,444</td>
+        </tr>
+        <tr>
+            <td class="left">Java Servlets and JSP</td>
+            <td>2014</td>
+            <td>$328,992</td>
+        </tr>
+        <tfoot>
+        <tr>
+            <th class="left">Total Sales</th>
+            <td></td>
+            <td>$1,399,264</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html>
