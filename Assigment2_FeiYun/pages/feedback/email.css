@@ -135,9 +135,14 @@ section label{
     }
 section input{
         width: 400px;
-        height: 20px;
+        height: 18px;
         margin-bottom: 10px;
     }
+section textarea{
+        width: 400px;
+        height: 100px;
+        margin-bottom: 10px;
+}
     
 #subs{
         
@@ -147,7 +152,14 @@ section input{
         box-shadow: #000 2px 2px 2px;
     }
 
-
+    #asideB {
+        float: right; 
+        width: 170px;
+        border: 1px solid black ;
+        box-shadow: 2px 2px 2px black ;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
 
 /* Footer */
 footer { 
